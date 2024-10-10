@@ -4,7 +4,7 @@ API_KEY = '0508b5e6db9b6fb4dea69718840'
 BASE_URL = 'http://api.openweathermap.org/data/2.5/weather?'
 
 city = input("Sacramento: ")
-request_url = f"{BASE_URL}q={city}&appid={API_KEY}&units=metric"
+request_url = f"{BASE_URL}q={Sacramento}&appid={0508b5e6db9b6fb4dea69718840}&units=metric"
 response = requests.get(request_url)
 
 if response.status_code == 200:
